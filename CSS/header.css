@@ -1,0 +1,49 @@
+header{
+    background: url(../src/img/favicon/bg-main.png);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-bar img{
+    width: 400px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.nav-bar a{
+    font-size: 20px;
+    padding: 10px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+
+.information{
+    width: 750px;
+    height: 200px;
+    /* border: 1px solid black; */
+    margin-top: 150px;
+    background-color: rgba(17, 17, 17, 0.7);
+    padding: 15px;
+}
+
+.information h1{
+    font-size: 60px;
+    margin-left: 150px;
+    color: #fff;
+}
+
+.information h4{
+    font-size: 25px;
+    margin-left: 150px;
+    color: #fff;
+}
