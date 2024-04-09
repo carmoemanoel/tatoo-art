@@ -16,7 +16,7 @@ header{
 .nav-bar img{
     width: 400px;
     height: 150px;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .nav-bar a{
@@ -28,37 +28,45 @@ header{
 
 
 .information{
-    width: 750px;
-    height: 200px;
+    width: 1000px;
+    height: 250px;
     /* border: 1px solid black; */
-    margin-top: 150px;
+    margin-top: 300px;
     background-color: rgba(17, 17, 17, 0.7);
     padding: 15px;
 }
 
 .information h1{
     font-size: 60px;
-    margin-left: 150px;
+    margin-left: 350px;
+    margin-top: 15px;
     color: #fff;
 }
 
 .information h4{
     font-size: 25px;
-    margin-left: 150px;
+    margin-left: 350px;
+    margin-top: 15px;
     color: #fff;
 }
 
 
 .btn a{
-    width: 235.98px ;
+    width: 250px;
     height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 50px;
     background-color: #820000;
-    margin-left: 510px;
+    margin-left: 750px;
     color: #fff;
     font-size: 18px;
     text-transform: uppercase;
+    font-weight: 700;
+    transition: 2s;
+}
+
+.btn a:hover{
+    background-color: #430303;
 }
