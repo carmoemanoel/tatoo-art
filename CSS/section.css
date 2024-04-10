@@ -6,14 +6,18 @@ section{
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 
 .box-section{
-    /* border: 1px solid white; */
-    width: 450px;
+    border: 1px solid white;
+    width: 600px;
+    height: 400px;
     margin-top: 100px;
-    margin-left: 100px;
+    /* margin-left: 100px; */
 }
 
 .ink{
@@ -36,32 +40,85 @@ section img{
     width: 360px;
     height: 38px;
     display:flex;
+    flex-direction: column;
+    gap: 20px;
     align-items:center;
     justify-content: center;
-    margin-left: 120px;
-    background-color: #820000;
+    /* margin-left: 100px; */
+    /* background-color: #820000; */
 }
 
 .btn-section a{
     color: white;
-    margin-left: 150px;
+    margin-left: 60px;
     font-size: 16px;
     text-transform: uppercase;
 }
 
-.unidade{
+
+.uni{
+    width: 360px;
+    height: 38px;
+    background-color: #820000;
     color: white;
-    margin-top: 30px;
-    margin-left: 300px;
-    font-size: 16px;
-    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-block: 15px;
+    margin-top: 100px;
 }
 
-.vila{
+.uni-new{
+    width: 360px;
+    height: 38px;
+    /* background-color: #820000; */
     color: white;
-    margin-top: 30px;
-    margin-left: 150px;
-    text-transform: uppercase;
-    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-block: 15px;
+}
+
+.uni-new:hover{
+    width: 360px;
+    height: 38px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-block: 15px;
+    background-color: #820000;
+    transition: 0.50s;
+}
+
+.vila-lobos{
+    width: 360px;
+    height: 38px;
+    /* background-color: #820000; */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-block: 15px;
+}
+
+.vila-lobos:hover{
+    width: 360px;
+    height: 38px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-block: 15px;
+    background-color: #820000;
+    transition: 0.50s;
+}
+
+
+.cards{
+    width: 500px;
+    height: 400px;
+    margin-top: 100px;
+    border:1px solid white;
 }
 
