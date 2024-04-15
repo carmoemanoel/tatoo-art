@@ -44,7 +44,7 @@ header{
 
 
 .information{
-    width: 1000px;
+    width: 800px;
     height: 250px;
     /* border: 1px solid black; */
     margin-top: 100px;
@@ -54,15 +54,15 @@ header{
 
 .information h1{
     font-size: 60px;
-    margin-left: 350px;
-    margin-top: 15px;
+    margin-left: 250px;
+    /* margin-top: 15px; */
     color: #fff;
 }
 
 .information h4{
     font-size: 25px;
-    margin-left: 350px;
-    margin-top: 15px;
+    margin-left: 250px;
+    /* margin-top: 15px; */
     color: #fff;
 }
 
@@ -75,7 +75,7 @@ header{
     justify-content: center;
     margin-top: 40px;
     background-color: #820000;
-    margin-left: 750px;
+    margin-left: 550px;
     color: #fff;
     font-size: 18px;
     text-transform: uppercase;
