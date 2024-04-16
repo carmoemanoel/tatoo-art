@@ -53,17 +53,19 @@ header{
 }
 
 .information h1{
-    font-size: 60px;
-    margin-left: 250px;
-    /* margin-top: 15px; */
+    font-size: 50px;
+    margin-left: 200px;
+    margin-top: 30px;
     color: #fff;
+    text-transform: uppercase;
 }
 
 .information h4{
-    font-size: 25px;
-    margin-left: 250px;
-    /* margin-top: 15px; */
+    font-size: 20px;
+    margin-left: 200px;
+    margin-top: 15px;
     color: #fff;
+    text-transform: uppercase;
 }
 
 
