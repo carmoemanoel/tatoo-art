@@ -1,80 +1,132 @@
-header {
+header{
     background: url(../src/img/favicon/bg-main.png);
-    width: 100vw;
-    height:100vh;
+    height: 100vh;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;    
 }
 
-
-.nav-bar {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.nav-bar img {
-    width: 400px;
+header img{
+    width: 300px;
     height: 150px;
-    margin-top: 40px;
+    padding: 20px 140px;
 }
 
-.nav-bar a {
-    font-size: 20px;
-    padding: 10px;
-    text-transform: uppercase;
-    color: #000;
-    position: relative;
+a,button{
+    cursor: pointer;
 }
 
-.nav-bar a::after {
-    content: " ";
-    width: 0%;
-    height: 2px;
-    background-color: #000;
+nav{
     position: absolute;
-    bottom: 0;
-    left: 0;
-    transition: 0.5s ease-in-out;
+    top: 100px;
+    right: 50px;
+    width: 250px;
 }
 
-.nav-bar a:hover::after {
+.navegacao{
+    position: fixed;
+    right: -500px;
+    width: 350px;
+    height: 100%;
+    background-color: black;
+    border-radius: 3px;
+    transition: .5s;
+    margin-top: -200px;
+}
+
+.navegacao ul li{
+    color: white;
+    text-align: right;
+    text-transform: uppercase;
+    list-style-type: none;
+    font-size: 24px;
+    padding: 20px 30px;
+    border-bottom: 1px solid #252525;
+}
+
+.hamburger, .bar{
+    position: fixed;
+}
+
+.hamburger{
+    display: block;
+    top: 5%;
+    left: 95%;
+    width: 30px;
+    height: 30px;
+    transform: translate(-50%);
+    border: 0;
+    background: 0 0;
+}
+
+.bar{
+    top: 3px;
+    background: #000;
     width: 100%;
+    height: 4px;
+    transition: all .3s ease-is;
 }
 
+#bar2{
+    top: 11px;
+}
+
+#bar3{
+    top: 19px;
+}
+
+
+.navegacao.active{
+    right: 0;
+}
+
+
+.hamburger.open #bar1{
+    background-color: #fff;
+    transform: rotate(45deg) translate(6px, 5px);
+} 
+
+.hamburger.open #bar2{
+    background-color: transparent;
+}
+
+.hamburger.open #bar3{
+    background-color: #fff;
+    transform: rotate(-45deg) translate(6px, -5px);
+
+} 
 
 .information {
     width: 800px;
     height: 250px;
-    border: 3px solid black;
+    /* border: 3px solid black; */
     margin-top: 100px;
     background-color: rgba(17, 17, 17, 0.7);
-    /* padding: 15px; */
+    
 }
 
 .information-txt{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 700px;
     height: 250px;
     margin-left: 100px;
 }
 
-.information h1 {
-    font-size: 50px;
+.information h1 { 
+    font-size: 45px;
     margin-left: 200px;
-    /* margin-top: 30px; */
+    margin-top: 40px;
     color: #fff;
     text-transform: uppercase;
-}
-
-.information h4 {
-    font-size: 20px;
+ }
+ 
+ .information h4 {
+    font-size: 16px;
     margin-left: 200px;
     margin-top: 15px;
     color: #fff;
     text-transform: uppercase;
-}
+} 
 
 
 .btn a {
@@ -95,16 +147,4 @@ header {
 
 .btn a:hover {
     background-color: #430303;
-}
-
-
-
-/* @media (min-width:700px){
-    header{
-        background: url(../src/img/favicon/bg-main.png);
-        width: 100%;
-        background-size: cover;
-        background-position: center center;
-        background-repeat: no-repeat;
-    }
-} */
+} 

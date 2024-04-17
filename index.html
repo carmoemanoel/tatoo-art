@@ -1,34 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<!--    / -->
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
     <link rel="stylesheet" href="./CSS/index.css">
     <link rel="stylesheet" href="./CSS/header.css">
     <link rel="stylesheet" href="./CSS/section.css">
     <link rel="stylesheet" href="./CSS/article.css">
-    <script src="./script.js"></script>
-    <title>Tatoo-art</title>
-    <link rel="shortcut icon" href="src/img/favicon/favicon.ico" type="image/x-icon">
+    <script defer src="./script.js"></script> 
+    <title>Tattoo-Art</title>
 </head>
-
 <body>
     <header>
-        <div class="nav-bar">
-            <img src="./src/img/favicon/logo.png" alt="Logo-Tattoo">
+            <img src="./src/img/favicon/logo.png" alt="">
+        <div class="navegacao">
+            <button class="hamburger" onclick="show()">
+                <div id="bar1" class="bar"></div>
+                <div id="bar2" class="bar"></div>
+                <div id="bar3" class="bar"></div>
+            </button>
             <nav>
-                <a href="#">home</a>
-                <a href="#trabalhos">trabalhos</a>
-                <a href="#sobre-nos">sobre nós</a>
-                <a href="#">contato</a>
+                <ul>
+                    <li><a>Início</a></li>
+                    <li><a>Trabalhos</a></li>
+                    <li><a>Sobre</a></li>
+                    <li><a>Contato</a></li>
+                </ul>
             </nav>
         </div>
         <div class="information">
@@ -39,7 +36,7 @@
         </div>
         <div class="btn">
             <a href="#">faça o seu orçamento</a>
-        </div>
+        </div>   
     </header>
     <section id="trabalhos">
         <div class="box-section">
@@ -56,17 +53,16 @@
                 <img src="./src/img/favicon/10.jpg" alt="texto alternativo">
             </div>
             <div class="card">
-                <img src="./src/img/favicon/7.jpg" alt="texto alternativo">
+                <img src="./src/img/favicon/10.jpg" alt="texto alternativo">
             </div>
             <div class="card">
-                <img src="./src/img/favicon/3.jpg" alt="texto alternativo">
+                <img src="./src/img/favicon/10.jpg" alt="texto alternativo">
             </div>
             <div class="card">
-                <img src="./src/img/favicon/2.jpg" alt="texto alternativo">
+                <img src="./src/img/favicon/10.jpg" alt="texto alternativo">
             </div>
         </div>
     </section>
-
     <article id="sobre-nos">
         <div class="about-left">
             <div class="ajuste">
@@ -83,49 +79,48 @@
                     cumque at qui iusto hic temporibus eligendi mollitia, soluta et nam a!</p>
             </div>
         </div>
-            <div class="local">
+        <div class="local">
 
-                <div class="photo-locais">
+            <div class="photo-locais">
 
-                    <input type="radio" name="radio-btn" id="radio1">
-                    <input type="radio" name="radio-btn" id="radio2">
-                    <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
 
 
 
-                    <div class="about-right1">
-                        <img src="./src/img/estudio1.jpg" alt="Imagem do local 1">
-                    </div>
-
-                    <div class="about-right">
-                        <img src="./src/img/estudio2.jpg" alt="Imagem do local 2">
-                    </div>
-                    
-                    <div class="about-right">
-                        <img src="./src/img/estudio3.jpg" alt="Imagem do local 3">
-                    </div>
-
-                    <div class="navegacao">
-
-                        <div class="auto-bt1"></div>   
-                        <div class="auto-bt2"></div>   
-                        <div class="auto-bt3"></div>   
-
-                    </div>
-
+                <div class="about-right1">
+                    <img src="./src/img/estudio1.jpg" alt="Imagem do local 1">
                 </div>
 
-                <div class="manual-navegacao">
-
-                    <label for="radio1" class="manual-btn"></label>
-                    <label for="radio2" class="manual-btn"></label>
-                    <label for="radio3" class="manual-btn"></label>
-
+                <div class="about-right">
+                    <img src="./src/img/estudio2.jpg" alt="Imagem do local 2">
                 </div>
 
+                <div class="about-right">
+                    <img src="./src/img/estudio3.jpg" alt="Imagem do local 3">
+                </div>
+
+                <div class="navegacao-slide">
+
+                    <div class="auto-bt1"></div>
+                    <div class="auto-bt2"></div>
+                    <div class="auto-bt3"></div>
+
+                </div>
 
             </div>
+
+            <div class="manual-navegacao">
+
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+
+            </div>
+
+
+        </div>
     </article>
 </body>
-
 </html>
