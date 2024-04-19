@@ -117,7 +117,7 @@ article{
         cursor: pointer;
         transition: 1s;
         /* margin-top: -40px; */
-    }
+    /* } */
 
     .navegacao-slide{
         position: absolute;
@@ -125,7 +125,7 @@ article{
         margin-top: 360px;
         display: flex;
         justify-content: center;
-    } */
+    } 
 
 /*     
 .navegacao-slide div:not(:last-child){
@@ -173,4 +173,4 @@ article{
     background-position: top center;
     background-size: cover;
     position: absolute;
-} */
+/* } */ 

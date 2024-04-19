@@ -3,26 +3,33 @@ section{
     /* border: 1px solid black; */
     height: 100vh;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    /* border: 1px solid white; */
+}
 
 .box-section{
     /* border: 1px solid white; */
-    width: 600px;
+    width: 400px;
     height: 400px;
     padding: 10px 10px;
-    /* margin-left: 50px;  */
+    /* margin-right: 200px;  */
 }
 
 .ink{
     width: 162px;
     height: 118px;
-    /* margin-left: 230px; */
+    margin-left: 230px;
 }
 
 .designers{
@@ -30,10 +37,10 @@ section{
     height: 130px;
 }
 
-section img{
+/* section img{
     display: flex;
     padding: 15px;
-}
+} */
 
 .btn-section {
     width: 360px;
@@ -109,42 +116,61 @@ section img{
     color: white;
     display: flex;
     align-items: center;
-    justify-content: end;
+    /* justify-content: end; */
     padding-block: 15px;
     background-color: #820000;
     transition: 0.50s;
 }
 
+.swiper {
+    width: 350px;
+    height: 400px;
+    position: absolute;
+    /* left: 50%; */
+    /* top: 30%; */
+    /* margin-right: 40px; */   
+  }
 
-.cards{
-    /* border: 1px solid white; */
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+
+/* .cards{
     display: flex;
     width: 900px;
-    height: 400px;
-    /* border:1px solid white; */
-    
+    height: 400px;  
 }
+ */
 
-
-.card{
+/* .card{
     width: 225px;
     height: 400px;
-    /* border: 1px solid white; */
-}
+    border: 1px solid white;
+} */
 
-.card img{
+/* .card img{
     width: 200px;
     height: 350px;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-}
+} */
 
-.card img:hover{
+/* .card img:hover{
     width: 240px;
     height: 430px;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     transition: 0.50s;
-}
+} */
+
+

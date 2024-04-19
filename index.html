@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,13 +8,15 @@
     <link rel="stylesheet" href="./CSS/header.css">
     <link rel="stylesheet" href="./CSS/section.css">
     <link rel="stylesheet" href="./CSS/article.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <script defer src="./script.js"></script>
     <link rel="shortcut icon" href="src/img/favicon/favicon.ico" type="image/x-icon">
     <title>Tattoo-Art</title>
 </head>
+
 <body>
     <header>
-            <img src="./src/img/favicon/logo.png" alt="">
+        <img src="./src/img/favicon/logo.png" alt="">
         <div class="navegacao">
             <button class="hamburger" onclick="show()">
                 <div id="bar1" class="bar"></div>
@@ -37,70 +40,80 @@
         </div>
         <div class="btn">
             <a href="#">faça o seu orçamento</a>
-        </div>   
+        </div>
     </header>
-    <section id="trabalhos">
-        <div class="box-section">
-            <img class="ink" src="./src/img/favicon/span.png" alt="">
-            <img class="designers" src="./src/img/favicon/span2.png" alt="">
-            <div class="btn-section">
-                <a href="#" class="uni">unidade classic</a>
-                <a href="#" class="uni-new">unidade new</a>
-                <a href="#" class="vila-lobos">unidade shopping villa lobos</a>
+    <main>
+        <section id="trabalhos">
+            <div class="box">
+                <div class="box-section">
+                    <img class="ink" src="./src/img/favicon/span.png" alt="">
+                    <img class="designers" src="./src/img/favicon/span2.png" alt="">
+                    <div class="btn-section">
+                        <a href="#" class="uni">unidade classic</a>
+                        <a href="#" class="uni-new">unidade new</a>
+                        <a href="#" class="vila-lobos">unidade shopping villa lobos</a>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="./src/img/favicon/10.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./src/img/favicon/3.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./src/img/favicon/2.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./src/img/favicon/11.jpg" />
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+    
             </div>
-        </div>
-        <div class="cards">
-            <div class="card">
-                <img src="./src/img/favicon/10.jpg" alt="texto alternativo">
-            </div>
-            <div class="card">
-                <img src="./src/img/favicon/10.jpg" alt="texto alternativo">
-            </div>
-            <div class="card">
-                <img src="./src/img/favicon/10.jpg" alt="texto alternativo">
-            </div>
-            <div class="card">
-                <img src="./src/img/favicon/10.jpg" alt="texto alternativo">
-            </div>
-        </div>
-    </section>
-    <article id="sobre-nos">
-        <div class="about-left">
-            <div class="ajuste">
-                <h1>Sobre Nós</h1>
+            
+        </section>
+        <article id="sobre-nos">
+            <div class="about-left">
+                <div class="ajuste">
+                    <h1>Sobre Nós</h1>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-                    Sunt odit corrupti consectetur recusandae ut unde voluptatum illum excepturi <br>
-                    cumque at qui iusto hic temporibus eligendi mollitia, soluta et nam a!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-                    Sunt odit corrupti consectetur recusandae ut unde voluptatum illum excepturi <br>
-                    cumque at qui iusto hic temporibus eligendi mollitia, soluta et nam a!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-                    Sunt odit corrupti consectetur recusandae ut unde voluptatum illum excepturi <br>
-                    cumque at qui iusto hic temporibus eligendi mollitia, soluta et nam a!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                        Sunt odit corrupti consectetur recusandae ut unde voluptatum illum excepturi <br>
+                        cumque at qui iusto hic temporibus eligendi mollitia, soluta et nam a!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                        Sunt odit corrupti consectetur recusandae ut unde voluptatum illum excepturi <br>
+                        cumque at qui iusto hic temporibus eligendi mollitia, soluta et nam a!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                        Sunt odit corrupti consectetur recusandae ut unde voluptatum illum excepturi <br>
+                        cumque at qui iusto hic temporibus eligendi mollitia, soluta et nam a!</p>
+                </div>
             </div>
-        </div>
-        <div class="local">
+            <div class="local">
 
-            <div class="photo-locais">
+                <!-- <div class="photo-locais">
 
-                <input type="radio" name="radio-btn" id="radio1">
-                <input type="radio" name="radio-btn" id="radio2">
-                <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3"> -->
 
 
 
                 <!-- <div class="about-right1">
-                    <img src="./src/img/favicon/estudio1.jpg" alt="Imagem do local 1">
-                </div>
-
-                <div class="about-right">
-                    <img src="./src/img/favicon/estudio2.jpg" alt="Imagem do local 2">
-                </div>
-
-                <div class="about-right">
-                    <img src="./src/img/favicon/estudio3.jpg" alt="Imagem do local 3">
-                </div> -->
+                        <img src="./src/img/favicon/estudio1.jpg" alt="Imagem do local 1">
+                    </div>
+    
+                    <div class="about-right">
+                        <img src="./src/img/favicon/estudio2.jpg" alt="Imagem do local 2">
+                    </div>
+    
+                    <div class="about-right">
+                        <img src="./src/img/favicon/estudio3.jpg" alt="Imagem do local 3">
+                    </div> -->
 
                 <div class="navegacao-slide">
 
@@ -121,7 +134,10 @@
             </div>
 
 
-        </div>
-    </article>
+            </div>
+        </article>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </body>
+
 </html>
