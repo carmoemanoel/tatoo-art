@@ -11,7 +11,7 @@ article{
 
 .about-left{
     display: flex;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     width: 50%;
     height: 100%;
     flex-direction: column;
@@ -49,10 +49,10 @@ article{
 
 .slider{
     margin: 0 auto;
-    width: 670px;
-    height: 449px;
+    width: 100vh;
+    height: 676px;
     overflow: hidden;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     margin-right: 5px;
 }
 
@@ -79,13 +79,14 @@ article{
 .manual-navigation{
     position: absolute;
     width: 700px;
-    margin-top: 15px;
+    margin-top: 200px;
+    margin-left: 100px;
     display: flex;
     justify-content: center;
 }
 
 .manual-btn{
-    border: 2px solid black;
+    border: 2px solid white;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -97,7 +98,7 @@ article{
 }
 
 .manual-btn:hover{
-    background-color: black;
+    background-color: white;
 }
 
 #radio1:checked~.first{
@@ -127,7 +128,8 @@ article{
 .navigation-auto{
     position: absolute;
     width: 700px;
-    margin-top: 415px;
+    margin-top: 600px;
+    margin-left: 100px;
     display: flex;
     justify-content: center;
 }
@@ -137,17 +139,17 @@ article{
 }
 
 #radio1:checked ~ .navigation-auto .auto-btn1{
-    background-color: black;
+    background-color: white;
 }
 
 #radio2:checked ~ .navigation-auto .auto-btn2{
-    background-color: black;
+    background-color: white;
 }
 
 #radio3:checked ~ .navigation-auto .auto-btn3{
-    background-color: black;
+    background-color: white;
 }
 
 #radio4:checked ~ .navigation-auto .auto-btn4{
-    background-color: black;
+    background-color: white;
 }
