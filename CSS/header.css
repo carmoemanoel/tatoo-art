@@ -209,27 +209,34 @@ nav{
 
 }
 
-@media (max-width:414px){
-    .conteiner-header{
-        max-width: 100%;
-        height: 80vh;
-        background-image: url(../src/img/favicon/bg-main-mobile.png);
+@media screen and (max-width:414px){
+    header{
+        background-image: url(../src/img/favicon/bg-main.png);
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
-
+    }
+    .conteiner-header{
+        max-width: 414px;
+        height: 80vh;
     }
     header img{
-        margin-left: -50px;
+        margin-left: -120px;
         width: 250px;
         height: 100px;
     }
+
     .information-txt{
         width: 350px;
         margin-top: -50px;
         margin-left: -150px;
 
     }
+
+    .information{
+        width: 395px;
+    }
+
     .information h1{
         font-size: 30px;
         margin-right: 400px;
