@@ -240,3 +240,50 @@ section{
         height: 400px;
     }
 }
+
+@media (max-width:414px) {
+    .box{
+      display: flex; 
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .box-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .ink{
+        width: 100px;
+        height: 50px;
+        margin-left: 90px;
+        margin-bottom: 10px;
+        margin-top: -100px;
+    }
+    .designers{
+        width: 200px;
+        height: 65px;
+        margin-bottom: 30px;
+        margin-left: 80px;
+    }
+
+    .btn-section a{
+        width: 290px;
+        font-size: 12px;
+        margin-left: 30px;
+    }
+
+    .btn-section a:hover{
+        width: 290px;
+        font-size: 12px;
+        margin-left: 30px;
+        background-color:#440707;
+        transition: .2s;
+    }
+    
+
+    .swiper{
+        margin-top: -250px;
+        width: 370px;
+        height: 400px;
+    }
+}
