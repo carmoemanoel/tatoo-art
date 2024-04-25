@@ -2,7 +2,7 @@ article{
     background-color: black;
     display: flex;
     width: 100%;
-    height: 70vh;
+    height: 100vh;
     /* margin-top: 30px; */
     justify-content: left;
     align-items: end;
@@ -101,7 +101,7 @@ article{
 }
 
 .slide img{
-    width: 105vh;
+    width: 105vw;
 }
 
 .manual-navigation{
@@ -180,4 +180,44 @@ article{
 
 #radio4:checked ~ .navigation-auto .auto-btn4{
     background-color: white;
+}
+
+
+
+@media screen and (max-width:414px) {
+    article{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .ajuste{
+        width: 300px;
+        height: 300px;
+        /* border: 2px solid white; */
+        align-items: center;
+        margin-top: -450px;
+        margin-left: -150px;
+    }
+    
+    .slider{
+        /* border: 2px solid black; */
+        width: 350px;
+        height: 350px;
+        margin-top: 300px;
+        margin-right: 20px;
+        
+    }
+
+    .slides{
+        width: 100px;
+        height: 300px;
+    }
+    .navigation-auto{
+        position: absolute;
+        margin-top: 300px;
+        margin-left: -160px;
+        display: flex;
+        justify-content: center;
+    }
+    
 }
