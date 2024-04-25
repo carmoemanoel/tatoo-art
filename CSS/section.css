@@ -1,5 +1,5 @@
 section{
-    
+    width: 100%;
     /* border: 1px solid black; */
     
 }
@@ -247,10 +247,12 @@ section{
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      margin-top: 150px;
     }
     .box-section{
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
     .ink{
         width: 100px;
@@ -262,7 +264,7 @@ section{
     .designers{
         width: 200px;
         height: 65px;
-        margin-bottom: 30px;
+        /* margin-bottom: 30px; */
         margin-left: 80px;
     }
 
