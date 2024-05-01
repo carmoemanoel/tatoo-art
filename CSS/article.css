@@ -76,6 +76,13 @@ article{
 }
 
 
+/* .logo-header img{
+    width: 250px;
+    height: 70px;
+    border: solid white;
+    margin-left: 650px;
+} */
+
 .slider{
     margin: 0 auto;
     width: 100vw;
@@ -219,6 +226,11 @@ article{
         margin-left: -160px;
         display: flex;
         justify-content: center;
+        width: 500px;
+    }
+    .slide img {
+        width: 70vw;
+        height: 30vh;
     }
     
 }
