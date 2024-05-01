@@ -1,20 +1,21 @@
-header{
+/* header{
     
-    /* width: 100vw;
+    width: 100vw;
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    -webkit-background-size: cover; */
-}
+    -webkit-background-size: cover;
+} */
 
 .conteiner-header{
     background-image: url(../src/img/favicon/bg-main.png);
     width: 1350px;
     height: 100%;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: left;
     background-size: cover;
+    -webkit-background-size: cover;
 }
 
 header img{
