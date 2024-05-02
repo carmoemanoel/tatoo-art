@@ -198,6 +198,18 @@ article{
         flex-direction: column;
         height: 100%;
     }
+
+    .about-left{
+        display: flex;
+        /* width: 200px; */
+        margin-top: 430px;
+    }
+
+    .logo-header img{
+        display: flex;
+        margin-left: 100px;
+    }
+
     .ajuste{
         width: 300px;
         height: 300px;
@@ -211,7 +223,7 @@ article{
         /* border: 2px solid black; */
         width: 350px;
         height: 350px;
-        margin-top: 300px;
+        margin-top: 400px;
         margin-right: 20px;
         
     }
