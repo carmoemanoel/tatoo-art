@@ -21,20 +21,21 @@ var swiper = new Swiper(".mySwiper", {
 
 
 
-// let count =1;
-// document.getElementById("radio1").checked = true;
-//     nextImage();
-// setInterval( function(){
-// }, 4000)
+let count =1;
+document.getElementById("radio1").checked = true;
 
+setInterval( function(){
+    nextImage();
+}, 4000)
 
-// function nextImage(){
-//     count++;
-//     if(count>3){
-//         count = 1;
-//     }
+function nextImage(){
+    count++;
+    if(count>4){
+        count = 1;
+    }
 
-//     document.getElementById("radio1"+count).checked = true;
-// }
+    document.getElementById("radio"+count).checked = true;
+
+}
 
 

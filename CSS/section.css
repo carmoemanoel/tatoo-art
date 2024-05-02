@@ -1,6 +1,12 @@
 section{
-    background: url(../src/img/favicon/bg-section.png);
+    width: 100%;
     /* border: 1px solid black; */
+    
+}
+
+.container-section{
+    background: url(../src/img/favicon/bg-section.png);
+    width: 100%;
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
@@ -8,14 +14,16 @@ section{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-attachment: fixed;
 }
 
 .box{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    gap: 10px;
+    gap: 60px;
     /* border: 1px solid white; */
+    margin-right: 50px;
 }
 
 .box-section{
@@ -27,12 +35,14 @@ section{
 }
 
 .ink{
+    /* border: 1px solid white; */
     width: 162px;
     height: 118px;
     margin-left: 230px;
 }
 
 .designers{
+    /* border: 1px solid white; */
     width: 400px;
     height: 130px;
 }
@@ -43,22 +53,31 @@ section{
 } */
 
 .btn-section {
+    /* border: 1px solid white; */
     width: 360px;
     height: 38px;
     display:flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
     align-items:center;
     justify-content: center;
     /* margin-left: 100px; */
     /* background-color: #820000; */
+    margin-top: 50px;
 }
 
 .btn-section a{
+    /* border: 1px solid white; */
     color: white;
     margin-left: 100px;
     font-size: 16px;
     text-transform: uppercase;
+    display: flex;
+    justify-content: flex-end;
+    width: 360px;
+    padding: 15px;
+    background-color: #820000;
+    margin-right: 50px;
 }
 
 
@@ -87,7 +106,7 @@ section{
     padding-block: 15px;
 }
 
-.uni-new:hover{
+/* .uni-new:hover{
     width: 360px;
     height: 38px;
     color: white;
@@ -97,7 +116,7 @@ section{
     padding-block: 15px;
     background-color: #820000;
     transition: 0.50s;
-}
+} */
 
 .vila-lobos{
     width: 360px;
@@ -110,17 +129,16 @@ section{
     padding-block: 15px;
 }
 
-.vila-lobos:hover{
+/* .vila-lobos:hover{
     width: 360px;
     height: 38px;
     color: white;
     display: flex;
     align-items: center;
-    /* justify-content: end; */
     padding-block: 15px;
     background-color: #820000;
     transition: 0.50s;
-}
+} */
 
 .swiper {
     width: 350px;
@@ -174,3 +192,101 @@ section{
 } */
 
 
+@media (max-width:360px){
+    .box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -30px;
+    }
+
+    .box-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ink{
+        width: 100px;
+        height: 50px;
+        margin-left: 90px;
+        margin-bottom: 10px;
+    }
+
+    .designers{
+        width: 200px;
+        height: 65px;
+        margin-bottom: 30px;
+        margin-left: 80px;
+    }
+
+    .btn-section a{
+        width: 290px;
+        font-size: 12px;
+        margin-left: 30px;
+    }
+
+    .btn-section a:hover{
+        width: 290px;
+        font-size: 12px;
+        margin-left: 30px;
+        background-color:#440707;
+        transition: .2s;
+    }
+    
+
+    .swiper{
+        margin-top: -150px;
+        width: 390px;
+        height: 400px;
+    }
+}
+
+@media (max-width:414px) {
+    .box{
+      display: flex; 
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 150px;
+    }
+    .box-section{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .ink{
+        width: 100px;
+        height: 50px;
+        margin-left: 90px;
+        margin-bottom: 10px;
+        margin-top: -100px;
+    }
+    .designers{
+        width: 200px;
+        height: 65px;
+        /* margin-bottom: 30px; */
+        margin-left: 80px;
+    }
+
+    .btn-section a{
+        width: 290px;
+        font-size: 12px;
+        margin-left: 30px;
+    }
+
+    .btn-section a:hover{
+        width: 290px;
+        font-size: 12px;
+        margin-left: 30px;
+        background-color:#440707;
+        transition: .2s;
+    }
+    
+
+    .swiper{
+        margin-top: -250px;
+        width: 370px;
+        height: 400px;
+    }
+}
