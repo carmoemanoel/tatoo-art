@@ -212,16 +212,15 @@ nav{
 }
 
 @media screen and (max-width:414px){
-    header{
+    .conteiner-header{
+        max-width: 100%;
+        height: 80vh;
         background: url(../src/img/favicon/bg-main-mobile.png);
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
     }
-    .conteiner-header{
-        max-width: 414px;
-        height: 80vh;
-    }
+
     header img{
         margin-left: -60px;
         width: 250px;
