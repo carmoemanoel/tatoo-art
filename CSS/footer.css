@@ -1,4 +1,62 @@
 footer{
-    width: 100%;
+    background-image: url(../src/img/favicon/Background-footer.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container h2{
+    font-size: 50px;
+    color: white;
+    margin-top: 50px;
+}
+
+.text-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+.text-footer p{
+    /* border: solid 1px white; */
+    font-size: 20px;
+    color: white;
+}
+
+.text-footer p span{
+    margin-left: 300px;
+}
+
+.form-contato{
+    /* border: solid 1px black; */
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    display: flex;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 20px;
+
+}
+
+input::placeholder{
+    /* color: red; */
 }
 
