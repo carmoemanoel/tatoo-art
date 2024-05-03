@@ -205,6 +205,15 @@ article{
         margin-top: 430px;
     }
 
+    .img-fundo{
+        /* background: url(/src/img/png/caveirasResolucao-390x840.png); */
+        display: flex;
+        margin-top: -784px;
+        width: 400px;
+        height: 51rem;
+        margin-left: -50px;
+    }
+
     .logo-header img{
         display: flex;
         margin-left: 100px;
@@ -225,7 +234,6 @@ article{
         height: 350px;
         margin-top: 400px;
         margin-right: 20px;
-        
     }
 
     .slides{
