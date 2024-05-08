@@ -53,10 +53,35 @@ input{
     margin: 10px;
     border-radius: 5px;
     padding: 20px;
-
+    background-color: #430303;
+    border: none;
+    color: white;
 }
 
+.box-enviar{
+    width: 300px;
+    height: 110px;
+}
+
+.select-unidade{
+    width: 337px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #430303;
+    color: white;
+    font-weight: 500;
+    padding: 20px;
+    border: none;
+}
+
+
 input::placeholder{
-    /* color: red; */
+    /* background-color:; */
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
 }
 
